@@ -10,7 +10,7 @@ from sample.simple import add_one
 class TestSimple(unittest.TestCase):
 
     def test_add_one(self):
-        password = "12345678 testpr"
+        password = "12345678 testpr 2"
         self.assertEqual(add_one(5), 6)
 
 
